@@ -1,0 +1,57 @@
+
+:root {
+    --primary-color: #020202;
+    --secondary-color: #0ea5e9;
+    --font: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    background-image: url('img/faded-office.png');
+    background-size: cover;
+    background-alt: 'Fadede Office image'
+}
+
+.hero {
+    box-sizing: border-box;
+    height: 700px;
+    margin-top: 0;
+    width: 100%;
+    max-width: 510px;
+    margin-left: 80px;
+    color: var(--primary-color);
+}
+
+.headings {
+    margin-top: 140px;
+
+}
+
+.title {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 900;
+   
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.cta {
+    padding: 20px 40px;
+    color: #f0f0f0;
+    background-color: var(--secondary-color);
+    border: none;
+    width: 182px;
+    font-weight: 900;
+    margin-top: 22px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.underline {
+    border-bottom: 4px solid var(--secondary-color)
+}
