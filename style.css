@@ -5,12 +5,26 @@
     --font: "Open Sans", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: var(--font);
+}
+
+main {
+    margin: 0;
+    padding: 0;
     background-image: url('img/faded-office.png');
     background-size: cover;
-    background-alt: 'Fadede Office image'
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero {
@@ -59,6 +73,11 @@ body {
 
 
 @media only screen and (max-width: 768px) {
+
+    .headings {
+        margin-top: 80px;
+    }
+
     .hero {
         width: 100%;
         margin: 0 auto;
@@ -76,7 +95,13 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+
+    .headings {
+        margin-top: 60px;
+    }
+
     .hero {
+        width: 100%;
         height: auto;
         padding: 80px 20px;
     }
